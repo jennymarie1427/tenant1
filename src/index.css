@@ -1,0 +1,7 @@
+@import "tailwindcss";
+body { font-family: "Poppins", sans-serif; }
+
+button, select, label[for], input[type="checkbox"], input[type="file"], input[type="date"], input[type="time"] {
+  cursor: pointer;
+}
+button:disabled { cursor: not-allowed; }
